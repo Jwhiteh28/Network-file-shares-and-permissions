@@ -27,16 +27,16 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 <h2>Step 2: Create Folders in File explorer</h2>
 <b>We will create four folders</b>
 <ul>
-  <li>The first file name will be Team Announcements(read-access)</li>
-  <li>Second will be Office Supply List (read/write permissions)</li>
-  <li>Third will be Scripts (No-access, only for Admins allowed access)</li>
-  <li>Fourth will be Accounts (We’ll save this for later so it can be added to a Security Group)</li>
+  <li>The first file name will be read-access</li>
+  <li>Second will be write-access</li>
+  <li>Third will be No-access</li>
+  <li>Fourth will be accounting</li>
   <img src="" width="600" alt="NFS"/>
 </ul>
 <br />
 
 
-<h2>Step 3: Give the "Team Announcements" Folder read permission level</h2>
+<h2>Step 3: Give the "read-access" Folder read permission level</h2>
 <b>Allow the team announcements folder only read permissions for the domain users</b>
 <p>
   <ul>
@@ -55,8 +55,8 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 <br />
 
 
-<h2>Step 4: Give the "Office Supply List" folder read/write permission level</h2>
-<b>Allow the Office Supply List folder read/write permissions for the domain users</b>
+<h2>Step 4: Give the "write-access" folder read/write permission level</h2>
+<b>Allow the write-access folder read/write permissions for the domain users</b>
 <ul>
   <li>Right click the folder > Select Properties</li>
   <li>Press the Sharing tab</li>
@@ -70,8 +70,8 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 <br />
 
 
-<h2>Step 5: Give the "Scripts" folder read/write permission level for Domain Admins ONLY</h2>
-<b>Give the Scripts folder read/write permission level for Domain Admins ONLY. No domain users wiil be allowed access to this file</b>
+<h2>Step 5: Give the "no-access" folder read/write permission level for Domain Admins ONLY</h2>
+<b>Give the no-access folder read/write permission level for Domain Admins ONLY. No domain users wiil be allowed access to this file</b>
 <ul>
   <li>Right click the folder > Select Properties</li>
   <li>Click the Sharing tab</li>
@@ -103,12 +103,12 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 </li>
   <img src="" width="600" alt="NFS"/>
   <img src="" width="600" alt="NFS"/>
-  <li>Open Office Supply List</li>
+  <li>Open write-access</li>
   <li>The Domain User should be able to read/write in this folder</li>
   <li>I created a document while logged in as the Domain User.
 </li>
   <img src="" width="600" alt="NFS"/>
-  <li>Open Tem Announcements</li>
+  <li>Open read-access</li>
   <li>The Domain User should be able to see and read inside the folder</li>
    <img src="" width="600" alt="NFS"/>
   <li>However, if the Domain User tries to create documents inside, they receive the following error message.
@@ -116,7 +116,7 @@ This tutorial outlines the implementation of Network File Shares and Permissions
   <li>It states that they need permission to perform this action.
 </li>
   <img src="" width="600" alt="NFS"/>
-  <li>Open Scripts</li>
+  <li>Open no-access</li>
   <li>Notice that the Domain User is unable to access the folder at all.
 </li>
   <li>This is because the folder was configured to be accessible only by Domain Admins.
@@ -127,7 +127,7 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 
 
 <h2>Step 8: Return to our DC-1 vm to create a Security Group</h2>
-<b>We are going to assign our Accounts folder to a Security Group</b>
+<b>We are going to assign our accounting folder to a Security Group</b>
 <ul>
   <li>Open up Active Directory Users and Computers</li>
   <li>Right click on mydomain.com > New > Organizational Unit</li>
@@ -143,7 +143,7 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 <h2>Step 9: Share the Accounts folder to the ACCOUNTANTS Security Group</h2>
 <b>We are assigning the Accounts folder to the ACCOUNTANTS Security Group</b>
 <ul>
-  <li>Go to File Explorer and find the Accounts folder</li>
+  <li>Go to File Explorer and find the accounting folder</li>
   <li>Right click > Properties</li>
   <li>Go to the Sharing tab</li>
   <li>Click the Share button</li>
@@ -156,7 +156,7 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 <br />
 
 
-<h2>Step 10: Try to access the "Accounts" folder as the Domain User</h2>
+<h2>Step 10: Try to access the "accounting" folder as the Domain User</h2>
 <b>Next, we’ll observe what happens when the Domain User attempts to access the Accounts folder</b>
 <ul>
   <li>Go to the File Explorer and click on the Accounts folder in CLIENT-1 vm</li>
@@ -183,10 +183,10 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 <br />
 
 
-<h2>Step 12: Try to access the "Accounts" folder again in CLIENT-1</h2>
+<h2>Step 12: Try to access the "accounting" folder again in CLIENT-1</h2>
 <b>You might have to log out then on as the user to let the folder and Security Group update</b>
 <ul>
-  <li>Go to File Explorer and find the Accounts folder and open it</li>
+  <li>Go to File Explorer and find the accounting folder and open it</li>
   <img src="" width="600" alt="NFS"/> 
   <li>You should now be able to see the contents in this folder and edit them</li>
   <img src="" width="600" alt="NFS"/> 
