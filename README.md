@@ -107,15 +107,15 @@ This tutorial outlines the implementation of Network File Shares and Permissions
   <li>The Domain User should be able to read/write in this folder</li>
   <li>I created a document while logged in as the Domain User.
 </li>
-  <img src="" width="600" alt="NFS"/>
+  <img src="https://i.imgur.com/HAqWzrU.png" width="600" alt="NFS"/>
   <li>Open read-access</li>
   <li>The Domain User should be able to see and read inside the folder</li>
-   <img src="https://i.imgur.com/HAqWzrU.png" width="600" alt="NFS"/>
+   <img src="https://i.imgur.com/MQiXU1j.png" width="600" alt="NFS"/>
   <li>However, if the Domain User tries to create documents inside, they receive the following error message.
 </li>
   <li>It states that they need permission to perform this action.
 </li>
-  <img src="https://i.imgur.com/MQiXU1j.png" width="600" alt="NFS"/>
+  <img src="" width="600" alt="NFS"/>
   <li>Open no-access</li>
   <li>Notice that the Domain User is unable to access the folder at all.
 </li>
