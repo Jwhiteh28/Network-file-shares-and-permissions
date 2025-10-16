@@ -147,11 +147,11 @@ This tutorial outlines the implementation of Network File Shares and Permissions
   <li>Right click > Properties</li>
   <li>Go to the Sharing tab</li>
   <li>Click the Share button</li>
-  <img src="" width="600" alt="NFS"/> 
+  <img src="https://i.imgur.com/FnCK3BZ.png" width="600" alt="NFS"/> 
   <li>Add the Security Group, ACCOUNTANTS to the box</li>
   <li>Click the Add button</li>
   <li>Allow it the Permission level of Read/Write</li>
-  <img src="https://i.imgur.com/FnCK3BZ.png" width="600" alt="NFS"/> 
+  <img src="https://i.imgur.com/YbbJGsk.png" width="600" alt="NFS"/> 
 </ul>
 <br />
 
@@ -163,8 +163,8 @@ This tutorial outlines the implementation of Network File Shares and Permissions
   <li>You will notice the user user don't have access to the folder</li>
   <li>This is because the user is not assigned to the Security Group named **ACCOUNTANTS**.
 </li>
-  <img src="https://i.imgur.com/YbbJGsk.png" width="600" alt="NFS"/> 
   <img src="https://i.imgur.com/vOyYDs9.png" width="600" alt="NFS"/> 
+  <img src="" width="600" alt="NFS"/> 
 </ul>
 <br />
 
