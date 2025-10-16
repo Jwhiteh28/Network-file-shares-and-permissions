@@ -101,13 +101,13 @@ This tutorial outlines the implementation of Network File Shares and Permissions
   <li>On the top bar, type \DC-1</li>
   <li>This will reference the files we created on DC-1.
 </li>
-  <img src="" width="600" alt="NFS"/>
   <img src="https://i.imgur.com/33bROV2.png" width="600" alt="NFS"/>
+  <img src="https://i.imgur.com/PKL2MyM.png" width="600" alt="NFS"/>
   <li>Open write-access</li>
   <li>The Domain User should be able to read/write in this folder</li>
   <li>I created a document while logged in as the Domain User.
 </li>
-  <img src="https://i.imgur.com/PKL2MyM.png" width="600" alt="NFS"/>
+  <img src="" width="600" alt="NFS"/>
   <li>Open read-access</li>
   <li>The Domain User should be able to see and read inside the folder</li>
    <img src="https://i.imgur.com/HAqWzrU.png" width="600" alt="NFS"/>
