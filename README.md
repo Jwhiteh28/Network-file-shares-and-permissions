@@ -83,7 +83,7 @@ This tutorial outlines the implementation of Network File Shares and Permissions
   <li>Set the Permission level for the Domain Admins to Read/Write</li>
   <li>Click Share</li>
   <li>This folder can be only access to Domain Admins and not by Domain users</li>
-  <img src="" width="600" alt="NFS"/>
+  <img src="https://i.imgur.com/YeaeFEb.png" width="600" alt="NFS"/>
 </ul>
 <br />
 
@@ -101,7 +101,7 @@ This tutorial outlines the implementation of Network File Shares and Permissions
   <li>On the top bar, type \DC-1</li>
   <li>This will reference the files we created on DC-1.
 </li>
-  <img src="https://i.imgur.com/YeaeFEb.png" width="600" alt="NFS"/>
+  <img src="" width="600" alt="NFS"/>
   <img src="https://i.imgur.com/33bROV2.png" width="600" alt="NFS"/>
   <li>Open write-access</li>
   <li>The Domain User should be able to read/write in this folder</li>
