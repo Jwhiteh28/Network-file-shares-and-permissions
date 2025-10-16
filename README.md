@@ -187,7 +187,7 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 <b>You might have to log out then on as the user to let the folder and Security Group update</b>
 <ul>
   <li>Go to File Explorer and find the accounting folder and open it</li>
-  <img src="https://i.imgur.com/7rSEFC0.png" width="600" alt="NFS"/> 
+  <img src="https://i.imgur.com/WK3Pokj.png" width="600" alt="NFS"/> 
   <li>You should now be able to see the contents in this folder and edit them</li>
   <img src="https://i.imgur.com/uDuBHhU.png" width="600" alt="NFS"/> 
 </ul>
