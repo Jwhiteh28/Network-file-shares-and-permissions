@@ -20,7 +20,7 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 
 <h2>Step 1: Logging into to our DC-1 (Domain Controller) Virtual Machine in Azure</h2>
 <b>Log into the domain controller as Jane Admin</b>
-<img src="" width="600" alt="NFS"/>
+<img src="https://i.imgur.com/8oziyjU.png" width="600" alt="NFS"/>
 <br />
 
 
