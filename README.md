@@ -90,7 +90,7 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 
 <h2>Step 6: Log into CLIENT-1 as any user from Active Directory</h2>
 <b>Choose any user from your Active Directory to log into our CLIENT-1 vm</b>
-<img src="" width="600" alt="NFS"/>
+<img src="https://i.imgur.com/hLJf2Ls.png" width="600" alt="NFS"/>
 <br />
 
 
