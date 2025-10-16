@@ -164,7 +164,7 @@ This tutorial outlines the implementation of Network File Shares and Permissions
   <li>This is because the user is not assigned to the Security Group named **ACCOUNTANTS**.
 </li>
   <img src="https://i.imgur.com/vOyYDs9.png" width="600" alt="NFS"/> 
-  <img src="" width="600" alt="NFS"/> 
+  <img src="https://i.imgur.com/rneocw3.png" width="600" alt="NFS"/> 
 </ul>
 <br />
 
