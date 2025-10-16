@@ -75,7 +75,7 @@ This tutorial outlines the implementation of Network File Shares and Permissions
   <li>Right click the folder > Select Properties</li>
   <li>Click the Sharing tab</li>
   <li>Click the Share button</li>
-  <img src="https://i.imgur.com/3aNVYC7.png" width="600" alt="NFS"/>
+  <img src="" width="600" alt="NFS"/>
   <li>Type the Domain Admins in the box</li>
   <li>Click the Add button</li>
   <img src="https://i.imgur.com/2ghTGqg.png" width="600" alt="NFS"/>
