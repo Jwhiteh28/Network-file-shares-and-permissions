@@ -115,13 +115,13 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 </li>
   <li>It states that they need permission to perform this action.
 </li>
-  <img src="" width="600" alt="NFS"/>
+  <img src="https://i.imgur.com/00DtjXJ.png" width="600" alt="NFS"/>
   <li>Open no-access</li>
   <li>Notice that the Domain User is unable to access the folder at all.
 </li>
   <li>This is because the folder was configured to be accessible only by Domain Admins.
 </li>
-  <img src="https://i.imgur.com/00DtjXJ.png" width="600" alt="NFS"/>
+  <img src="https://i.imgur.com/fK0GjWC.png" width="600" alt="NFS"/>
 </ul>
 <br />
 
@@ -132,10 +132,10 @@ This tutorial outlines the implementation of Network File Shares and Permissions
   <li>Open up Active Directory Users and Computers</li>
   <li>Right click on mydomain.com > New > Organizational Unit</li>
   <li>Name the Organizational Unit, _GROUPS</li>
-  <img src="https://i.imgur.com/fK0GjWC.png" width="600" alt="NFS"/>
+  <img src="https://i.imgur.com/giXDffA.png" width="600" alt="NFS"/>
   <li>In the right panel, right click > Select New > Group</li>
   <li>Name the Group ACCOUNTANTS</li>
-  <img src="https://i.imgur.com/giXDffA.png" width="600" alt="NFS"/>                                                       
+  <img src="https://i.imgur.com/jE9I183.png" width="600" alt="NFS"/>                                                       
 </ul>
 <br />
 
@@ -147,7 +147,7 @@ This tutorial outlines the implementation of Network File Shares and Permissions
   <li>Right click > Properties</li>
   <li>Go to the Sharing tab</li>
   <li>Click the Share button</li>
-  <img src="https://i.imgur.com/jE9I183.png" width="600" alt="NFS"/> 
+  <img src="" width="600" alt="NFS"/> 
   <li>Add the Security Group, ACCOUNTANTS to the box</li>
   <li>Click the Add button</li>
   <li>Allow it the Permission level of Read/Write</li>
