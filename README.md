@@ -65,6 +65,7 @@ This tutorial outlines the implementation of Network File Shares and Permissions
   <li>Click the Add button</li>
   <li>Set the permission level for the Domain Users to Read/Write > Click Share</li>
   <img src="https://i.imgur.com/NBQn82T.png" width="600" alt="NFS"/>
+  <img src="https://i.imgur.com/3aNVYC7.png" width="600" alt="NFS"/>
 </ul>
 <br />
 
